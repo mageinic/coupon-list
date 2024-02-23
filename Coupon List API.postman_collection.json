@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "172cdc65-a6ac-47ae-a66a-43c58dbc2e10",
+		"name": "Coupon List API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8434423"
+	},
+	"item": [
+		{
+			"name": "Guest Users Coupon Liat",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MiwiaWF0IjoxNzA4NTE3ODQxLCJleHAiOjE3MDg1MjE0NDF9.eLHex55uksDECXKIoawokKpX2Wmggkj17OpmJbgYwuQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/rest//V1/carts/68/coupons-list",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"rest",
+						"",
+						"V1",
+						"carts",
+						"68",
+						"coupons-list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ragister Users Coupon List",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjEsInV0eXBpZCI6MiwiaWF0IjoxNzA4NTE3ODQxLCJleHAiOjE3MDg1MjE0NDF9.eLHex55uksDECXKIoawokKpX2Wmggkj17OpmJbgYwuQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pwa.mageinic.com/rest/V1/carts/4/coupons-list",
+					"protocol": "https",
+					"host": [
+						"pwa",
+						"mageinic",
+						"com"
+					],
+					"path": [
+						"rest",
+						"V1",
+						"carts",
+						"4",
+						"coupons-list"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
