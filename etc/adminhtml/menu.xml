@@ -31,11 +31,11 @@
         <!-- Menu Group -->
         <add id="MageINIC_CouponList::menu_section" title="Coupon List"
              module="MageINIC_CouponList" sortOrder="110" parent="MageINIC_Core::core"
-             resource="MageINIC_CouponList::menu_section"/>
+             resource="MageINIC_CouponList::coupon_list_config"/>
         <!-- Child Menus -->
         <add id="MageINIC_CouponList::config" title="Configuration"
              module="MageINIC_CouponList" parent="MageINIC_CouponList::menu_section"
-             sortOrder="40" resource="MageINIC_CouponList::config"
+             sortOrder="40" resource="MageINIC_CouponList::coupon_list_config"
              action="adminhtml/system_config/edit/section/coupon_list"/>
     </menu>
 </config>

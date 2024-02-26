@@ -33,7 +33,7 @@
             <class>separator-top</class>
             <label>Coupon List</label>
             <tab>mageinic</tab>
-            <resource>MageINIC_CouponList::couponlist_config</resource>
+            <resource>MageINIC_CouponList::coupon_list_config</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
                    showInStore="1">
                 <label>General</label>
@@ -41,7 +41,7 @@
                        showInWebsite="1" showInStore="1">
                     <label>Enable</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment>Enable "View Coupon List" for frontend.</comment>
+                    <comment><![CDATA[Enable "View Coupon List" for frontend.]]></comment>
                 </field>
             </group>
         </section>
